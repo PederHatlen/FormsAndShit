@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave4</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Oppgave4</h1>
+    <form action="" onSubmit="formSubmit(event);" id="form">
+        <label for="name">Name: </label><input type="text" name="name" id="name" placeholder="name"><br>
+        <label for="age">Age: </label><input type="number" name="age" id="age" placeholder="Age" min="12" max="100"><br>
+
+        <label for="vann">Vann </label><input type="radio" name="drikke" id="vann" value="vann">
+        <label for="saft">Saft </label><input type="radio" name="drikke" id="saft" value="saft">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="outputBox"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
