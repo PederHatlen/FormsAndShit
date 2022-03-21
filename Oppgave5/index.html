@@ -13,17 +13,15 @@
         <label for="name">Navn: </label><input type="text" name="name" id="name" placeholder="Navn"><br>
         <label for="age">Alder: </label><input type="number" name="age" id="age" placeholder="Alder" min="12" max="100"><br>
 
-        <label for="vann">Vann </label><input type="radio" name="drikke" id="vann" value="vann">
-        <label for="saft">Saft </label><input type="radio" name="drikke" id="saft" value="saft">
+        <label for="vann">Vann </label><input type="radio" name="drink" id="vann" value="vann">
+        <label for="saft">Saft </label><input type="radio" name="drink" id="saft" value="saft">
         <br>
         <div id="fooditems">
-            <label for="grøt">Grøt </label><input type="checkbox" name="mat" id="mat">
+            <label for="foodgrøt">Grøt</label><input type="checkbox" name="food" id="foodgrøt" value="grøt" onclick="makeString(event)">
         </div>
         <br>
-        <label for="newFood">Ny matrett </label><input type="text" id="newFood" name="newFood" placeholder="Ny matrett"><input type="button" value="Legg til matrett" onClick="newFood(event);">
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+    </form><br>
+    <label for="newFood">Ny matrett </label><input type="text" id="newFood" name="newFood" placeholder="Ny matrett"><input type="button" value="Legg til matrett" onClick="newFood(event);">
     <div id="outputBox"></div>
     <script src="js/script.js"></script>
 </body>
