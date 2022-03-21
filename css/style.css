@@ -1,0 +1,32 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: 'Comic Sans ms';
+    width: 75%;
+}
+a{color: black;}
+a:hover{color: gray;}
+
+p{
+    margin: 0;
+    border-bottom: transparent 2px solid;
+}
+p:hover{
+    background-color: gray;
+    border-bottom: white 2px solid;
+}
+
+#outputBox{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
