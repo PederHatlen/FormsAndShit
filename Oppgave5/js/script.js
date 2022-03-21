@@ -12,7 +12,7 @@ for (let i = 0; i < inputEls.length; i++) { inputEls[i].addEventListener("input"
 
 // Main function for retrieving all the information from the form
 function makeString(e) {
-	let fData = new FormData(formEl);	// Data is retrieved with FormData, which generates a post-like request with data
+	let fData = new FormData(formEl); // Data is retrieved with FormData, which generates a post-like request with data
 
 	// All data is generated with ternary operators, not so clean, but it works
 	let name = (fData.get("name") != "" ? "Jeg heter " + fData.get("name") + "." : "");
