@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Oppgave5</h1>
-    <form action="" id="form">
+    <form id="form">
         <label for="name">Navn: </label><input type="text" name="name" id="name" placeholder="Navn"><br>
         <label for="age">Alder: </label><input type="number" name="age" id="age" placeholder="Alder" min="12" max="100"><br>
 
@@ -21,7 +21,9 @@
         </div>
         <br>
     </form><br>
-    <label for="newFood">Ny matrett </label><input type="text" id="newFood" name="newFood" placeholder="Ny matrett"><input type="button" value="Legg til matrett" onClick="newFood(event);">
+    <form id="newFoodForm">
+        <label for="newFood">Ny matrett </label><input type="text" id="newFood" name="newFood" placeholder="Ny matrett"><input type="submit" value="Legg til matrett">
+    </form>
     <div id="outputBox"></div>
     <script src="js/script.js"></script>
 </body>
