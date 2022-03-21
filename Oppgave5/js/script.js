@@ -33,5 +33,6 @@ function makeString(e){
 
 function newFood(e){
     console.log(e);
-    fooditemsEl.innerHTML += "<label for=\""+newFoodEl.value+"\">"+newFoodEl.value+"</label><input type=\"checkbox\" name=\"food\" id=\"food"+newFoodEl.value+"\" value=\""+newFoodEl.value+"\" onClick=\"makeString(event)\">";
+    let x = newFoodEl.value;
+    fooditemsEl.innerHTML += "<label for=\""+x+"\">"+x+"</label><input type=\"checkbox\" name=\"food\" id=\"food"+x+"\" value=\""+x+"\" onClick=\"makeString(event)\">";
 }
